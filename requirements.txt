@@ -1,0 +1,30 @@
+# FastAPI and ASGI Server
+fastapi==0.95.1
+uvicorn==0.22.0
+
+# Core PyTorch Library (ensure correct version for CUDA if using GPU)
+torch==2.0.1
+
+# Diffusion Models and Transformers
+diffusers==0.16.1
+transformers==4.30.2
+
+# Image Processing
+Pillow==9.4.0
+
+# Additional Stable Diffusion Requirements
+scipy==1.11.1
+scikit-image==0.21.0
+accelerate==0.21.0
+tqdm==4.65.0
+torchvision==0.15.2  # Ensure compatibility with torch version
+
+# Hugging Face Hub
+huggingface-hub==0.15.1
+
+# Safety Checker and Related Utilities
+opencv-python-headless==4.7.0.72  # OpenCV for image processing
+ftfy==6.1.1  # Fixes text encoding issues
+regex==2023.8.8  # Regular expressions module for text processing
+filelock==3.12.3  # File locking mechanism, often used in model loading
+packaging==23.1  # For package version management
